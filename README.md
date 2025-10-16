@@ -12,6 +12,7 @@ Détecte IP, MAC, hostname. Utilise ARP si possible (Npcap sur Windows), sinon f
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Exemple](#Exemple)
 - [Features](#features)
 - [Files](#files)
 - [Contributing](#contributing)
@@ -100,3 +101,9 @@ Ouvre `http://127.0.0.1:5000/` puis saisis `results.json` pour charger les résu
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Ethics
+
+N’exécute les scans que sur ton propre réseau ou avec autorisation explicite. Les scans peuvent être détectés par des IDS/firewalls. Ne publie pas d’adresses IP ou MAC sensibles.
