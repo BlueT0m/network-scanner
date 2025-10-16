@@ -61,7 +61,11 @@ python web_ui.py
 - Lancer PowerShell en administrateur
 - Sinon, le scanner utilise le mode ping
 
-  📌 Exemples de sortie
-IP            MAC                 Hostname
-192.168.1.239 80:30:49:e1:9b:59  MonPC
-192.168.1.45  b8:27:eb:12:34:56  RaspberryPi
+---
+
+## 📌 Exemples de sortie
+
+| IP              | MAC                  | Hostname      |
+| :-------------- | :------------------- | :------------ |
+| `192.168.1.239` | `80:30:49:e1:9b:59`  | `MonPC`       |
+| `192.168.1.45`  | ` b8:27:eb:12:34:56` | `RaspberryPi` |
