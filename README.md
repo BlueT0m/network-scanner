@@ -31,3 +31,32 @@ source venv/bin/activate
 venv\Scripts\activate.ps1
 
 pip install -r requirements.txt
+🚀 Usage
+Scanner
+bash
+Copier le code
+python scanner_enhanced.py 192.168.1.0/24 --json results.json --csv results.csv
+Interface web
+bash
+Copier le code
+python web_ui.py
+# ouvrir http://127.0.0.1:5000/
+# entrer "results.json" pour charger les résultats
+💾 Fichiers générés
+results.json → données des appareils détectés
+
+results.csv → tableur CSV des appareils avec timestamp
+
+🔧 Prérequis pour ARP (Windows)
+Installer Npcap en mode WinPcap compatible : https://nmap.org/npcap/
+
+Lancer PowerShell en administrateur
+
+Sinon, le scanner utilise le mode ping
+
+📌 Exemples de sortie
+nginx
+Copier le code
+IP            MAC                 Hostname
+192.168.1.239 80:30:49:e1:9b:59  MonPC
+192.168.1.45  b8:27:eb:12:34:56  RaspberryPi
